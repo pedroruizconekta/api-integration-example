@@ -260,7 +260,7 @@ const Store = () => {
                       description="Pago en efectivo al recibir."
                       checked={paymentMethod === "Efectivo"}
                       onChange={handlePaymentMethodChange}
-                      logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlsRIrYdNPvIrYM1gGBo7saYYP7ryQMq5qbQ&s"
+                      logo="https://assets.conekta.com/cpanel/statics/assets/img/conekta-logo-symbol.svg"
                     />
                     <PaymentOption
                       value="Pago en plazos con Creditea"
