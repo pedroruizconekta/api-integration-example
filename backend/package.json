@@ -1,0 +1,18 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "concurrently": "^7.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "json-server": "^0.17.0",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "prestart": "npm install --silent",
+    "start": "concurrently \"npm run server\" \"cd ../frontend && npm install && npm start\"",
+    "server": "nodemon index.js"
+  }
+}
